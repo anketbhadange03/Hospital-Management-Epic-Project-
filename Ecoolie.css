@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+   background-image: url("background_image1.jpg");
+   background-size: cover;
+   
+   /* background-color: #acdcff;  */
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #6F9FC1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 2rem #466174;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    font-size: 40px;
+    margin-right: 300px;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 0 2rem black;
+}
+
+.logo :hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.about-us{
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.about-us :hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.contact{
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact :hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.login{
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login :hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.signup{
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.signup :hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+main{
+    
+    margin-top: 150px;
+}
+
+.section-one{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    
+}
+
+.img-one{
+    background-image: url("hos2.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 2rem black;
+}
+
+.para-one{
+    margin-top: 20px;
+    height: 200px;
+    width: 40%;
+    border: 5px solid black;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 2rem black;
+    
+}
+.para-one p{
+    color:black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 38%;
+}
+
+h4{
+    margin-top: 15px;
+}
+
+
+
+footer{
+    background-color: #6F9FC1;
+    color: black;
+    box-shadow: 0 0 2rem #364e5e;
+}
+
+.foot-one{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.foot-last{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;  
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+#a-one{
+    color: black;
+}
+
+#a-two{
+    color: black;
+}
+
+#a-three{
+    color: black;
+}
+
+
